@@ -5,8 +5,8 @@ import { MapPinIcon } from '@heroicons/react/24/solid';
 
 const Landing = () => {
 	return (
-		<div className='mt-9 px-12 w-full flex flex-col lg:flex-row gap-8 justify-between items-center text-white'>
-			<div className='h-56 px-6 card card-side w-full lg:max-w-lg lg:w-1/3 bg-base-100 shadow-xl border-accent bg-gradient-to-r from-secondary to-primary'>
+		<div className='mt-9 px-12 w-full flex flex-col lg:flex-row gap-8 justify-between items-center text-white mb-20 lg:mb-36'>
+			<div className='lg:h-56 px-6 h-max card card-side w-full lg:w-1/3 bg-base-100 shadow-xl border-accent bg-gradient-to-r from-secondary to-primary'>
 				<figure>
 					<ClockIcon className='h-36 w-36'></ClockIcon>
 				</figure>
@@ -18,7 +18,7 @@ const Landing = () => {
 					</p>
 				</div>
 			</div>
-			<div className='h-56 px-6 card card-side w-full lg:max-w-lg lg:w-1/3 shadow-xl border-accent bg-accent'>
+			<div className='lg:h-56 px-6 h-max card card-side w-full lg:w-1/3 shadow-xl border-accent bg-accent'>
 				<figure>
 					<MapPinIcon className=' h-20 w-20'></MapPinIcon>
 				</figure>
@@ -31,7 +31,7 @@ const Landing = () => {
 					</p>
 				</div>
 			</div>
-			<div className='h-56 px-6 card card-side w-full lg:max-w-lg lg:w-1/3 bg-base-100 shadow-xl border-accent bg-gradient-to-r from-secondary to-primary'>
+			<div className='lg:h-56 px-6 h-max card card-side w-full lg:w-1/3 bg-base-100 shadow-xl border-accent bg-gradient-to-r from-secondary to-primary'>
 				<figure>
 					<PhoneIcon className='h-20 w-20'></PhoneIcon>
 				</figure>
