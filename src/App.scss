@@ -1,9 +1,3 @@
-.App {
-	background: #fff !important;
-	height: 100vh;
-	width: 100vw;
-}
-
 .btn {
 	@apply active:bg-transparent;
 }
@@ -14,4 +8,8 @@
 
 .hero {
 	@apply d-flex;
+}
+
+.card-body:where(p) {
+	@apply max-h-max h-fit;
 }

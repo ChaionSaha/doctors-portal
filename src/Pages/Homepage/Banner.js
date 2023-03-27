@@ -8,7 +8,7 @@ const Banner = () => {
 			className='hero min-h-screen relative bg-base-100'
 			style={{ backgroundImage: `url(${bg})` }}
 		>
-			<div className='hero-content max-w-full px-36 flex-col lg:flex-row-reverse lg:gap-x-48'>
+			<div className='hero-content max-w-full px-36 flex-col lg:flex-row-reverse lg:gap-x-48 '>
 				<img
 					src={chair}
 					alt='chair'
@@ -27,6 +27,7 @@ const Banner = () => {
 					</button>
 				</div>
 			</div>
+			<div className='absolute bottom-0  w-full h-1/4 bg-gradient-to-t from-white to-transparent'></div>
 		</div>
 	);
 };

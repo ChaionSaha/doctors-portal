@@ -1,11 +1,12 @@
 import React from 'react';
 import Banner from './Banner';
+import Landing from './Landing';
 
 const Homepage = () => {
 	return (
 		<div className='relative'>
-			<Banner></Banner>
-			<div className='absolute bottom-0 w-full h-1/4 bg-gradient-to-t from-white to-transparent'></div>
+			<Banner />
+			<Landing />
 		</div>
 	);
 };
