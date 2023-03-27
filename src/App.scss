@@ -7,3 +7,11 @@
 .btn {
 	@apply active:bg-transparent;
 }
+
+.d-flex {
+	display: flex !important;
+}
+
+.hero {
+	@apply d-flex;
+}

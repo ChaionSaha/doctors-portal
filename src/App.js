@@ -11,7 +11,7 @@ import SignUp from './Pages/SignUp/SignUp';
 
 function App() {
 	return (
-		<div>
+		<div className='flex flex-col'>
 			<Navbar></Navbar>
 			<Routes>
 				<Route path='/' element={<Homepage />}></Route>
