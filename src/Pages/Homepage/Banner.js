@@ -1,6 +1,7 @@
 import React from 'react';
 import bg from '../../assets/images/bg.png';
 import chair from '../../assets/images/chair.png';
+import CustomButton from '../Shared/CustomButton';
 
 const Banner = () => {
 	return (
@@ -24,9 +25,7 @@ const Banner = () => {
 						dolorum omnis magnam quisquam, in rem cumque dicta voluptas eos
 						natus!
 					</p>
-					<button className='w-32 h-16 z-50 btn btn-primary text-white font-bold self-start '>
-						Get Started
-					</button>
+					<CustomButton>Get Started</CustomButton>
 				</div>
 			</div>
 			<div className='z-10 absolute bottom-0 lg:bottom-0 w-full h-7 lg:h-1/4 bg-gradient-to-t from-white to-transparent'></div>
